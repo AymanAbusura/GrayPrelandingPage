@@ -30,7 +30,7 @@
   font-weight: 400;
 }
 
-.different { color: #FF9500!important; }
+.different { color: #e48c2a!important; }
 
 .near__text { display: inline-block!important; }
 
@@ -145,7 +145,8 @@
 
 .description__text {
 	width: 75%;
-	color: #d8d8d8;
+    color: #ffffffb3;
+/*	color: #d8d8d8;*/
 	font-size: 14px;
 	font-weight: 300;
 	text-align: left;
@@ -201,7 +202,7 @@
 }
 
 .right-box p {
-    color: #aaa;
+    color: #ffffffb3;
     font-size: 18px;
     margin-top: 20px;
 }
@@ -211,7 +212,7 @@
     flex-direction: row;
     align-items: center;
     gap: 20px;
-    border: 1px solid #FF9500;
+    border: 1px solid #e48c2a;
     background: #3a3d44;
     border-radius: 20px;
     padding: 10px;*/
@@ -379,14 +380,14 @@
 
 .progress {
     height: 100%;
-    background: #FF9500;
+    background: #e48c2a;
     border-radius: 10px;
 }
 
 .progress-text {
     font-size: 14px;
     font-weight: bold;
-    color: #aaa;
+    color: #ffffffb3;
     min-width: 30px;
     text-align: right;
 }
@@ -415,11 +416,11 @@
 
 .cta-button-about {
     background: transparent;
-    border: 1px solid #FF9500;
+    border: 1px solid #e48c2a;
 }
 
 .cta-button-about:hover {
-    background: #FF9500;
+    background: #e48c2a;
 }
 
 .title-1 {
@@ -443,12 +444,12 @@
 }
 
 .cta-button-about {
-    border: 1px solid #FF9500;
+    border: 1px solid #e48c2a;
 }
 
 .trading-card {
     position: relative;
-    width: 340px;
+    width: 400px;
     aspect-ratio: 3 / 4;
     border-radius: 16px;
 }
@@ -459,7 +460,7 @@
     left: 0;
     width: 100%;
     height: 20%;
-    background-color: #FF9500;
+    background-color: #e48c2a;
     border-radius: 20px;
     z-index: 1;
     transform: translate(-25px, -12px);
@@ -468,7 +469,7 @@
 
 .trading-card-front {
     width: 100%;
-    height: 95%;
+/*    height: 95%;*/
     object-fit: fill;
     border-radius: 10px;
     z-index: 2;
@@ -698,7 +699,7 @@
 
 .left, .right {
     padding: 30px;
-    border: 1px solid #FF9500;
+    border: 1px solid #e48c2a;
     border-radius: 10px;
 }
 
@@ -713,7 +714,7 @@
 .step {
     display: flex;
     flex-direction: column;
-    border: 2px solid #FF9500;
+    border: 2px solid #e48c2a;
     border-radius: 30px;
     padding: 5px 5px;
     cursor: pointer;
@@ -734,7 +735,7 @@
 .circle {
     width: 40px;
     height: 40px;
-    background: #FF9500;
+    background: #e48c2a;
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -828,7 +829,7 @@
 }
 
 .arrow__line__1 {
-    background: #FF9500;
+    background: #e48c2a;
     position: absolute;
     width: 12%;
     bottom: 59%;
@@ -838,7 +839,7 @@
     z-index: 1;
 }
 .arrow__line__2 {
-    background: #FF9500;
+    background: #e48c2a;
     position: absolute;
     width: 12%;
     bottom: 59%;
@@ -848,7 +849,7 @@
     z-index: 1;
 }
 .arrow__line__3 {
-    background: #FF9500;
+    background: #e48c2a;
     position: absolute;
     width: 15%;
     bottom: 41%;
@@ -858,7 +859,7 @@
     z-index: 1;
 }
 .arrow__line__4 {
-    background: #FF9500;
+    background: #e48c2a;
     position: absolute;
     width: 15%;
     bottom: 42%;
@@ -875,8 +876,8 @@
 }
 
 .arrow img {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     align-items: flex-end;
 }
 
@@ -893,7 +894,7 @@
     left: 0;
     width: 86%;
     height: 15%;
-    background-color: #FF9500;
+    background-color: #e48c2a;
     border-radius: 16px;
     z-index: 1;
     transform: translate(-12px, -12px);
@@ -922,7 +923,8 @@
 .experience__info {
 	text-align: left;
 	max-width: 600px;
-    font-size: 14px;
+    font-size: 16px;
+    color: #ffffffb3!important;
 }
 
 .experience__button {
@@ -1283,7 +1285,7 @@
 .faq-item h3,
 .faq-item p {
   color: #fff;
-  text-align: right;
+  text-align: left;
 }
 
 .faq-item h3 {
@@ -1461,12 +1463,12 @@ footer .nav-footer .language>a::after{
 }
 
 .nav1 .nav__link {
-	text-transform: uppercase;
+/*	text-transform: uppercase;*/
 }
 
 .nav1 .nav__link:hover {
 	text-decoration: none!important;
-	color: #FF9500;
+	color: #e48c2a;
 }
 
 /* LOGIN PAGE */
@@ -1479,7 +1481,7 @@ footer .nav-footer .language>a::after{
 }
 
 .login_form__div {
-	border: 1px solid #FF9500;
+	border: 1px solid #e48c2a;
 	border-radius: 30px;
 	padding: 20px;
 	max-width: 500px;
@@ -1487,12 +1489,12 @@ footer .nav-footer .language>a::after{
 }
 
 .login_form__div input {
-	border: 1px solid #FF9500;
+	border: 1px solid #e48c2a;
 }
 
 /* CONTACT PAGE */
 .form__contact {
-    border: 1px solid #FF9500; 
+    border: 1px solid #e48c2a; 
     background: #00000094;
 }
 .contact_us_title {
@@ -1588,7 +1590,7 @@ footer .nav-footer .language>a::after{
 }
 
 .highlight {
-  color: #FF9500;
+  color: #e48c2a;
   letter-spacing: 1px;
 }
 
@@ -1600,14 +1602,14 @@ footer .nav-footer .language>a::after{
 }
 
 .info-box {
-  border: 1px solid #FF9500;
+  border: 1px solid #e48c2a;
   border-radius: 15px;
   padding: 25px;
   background: #0d0d0d;
 }
 
 .info-title {
-  color: #FF9500;
+  color: #e48c2a;
   text-transform: uppercase;
   margin-top: 15px;
   margin-bottom: 5px;
@@ -2015,7 +2017,7 @@ footer .nav-footer .language>a::after{
     .contact_form__bg { position: unset!important; }
 
     textarea {
-        border: 1px solid #FF9500;
+        border: 1px solid #e48c2a;
     }
 
     textarea:focus {

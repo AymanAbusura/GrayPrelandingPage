@@ -26,7 +26,7 @@
                 <nav class="nav desktop-nav">
                     <a class="menu__link " href="/">Home</a>
                     <a class="menu__link " href="/pages/about/">About Us</a>
-                    <a class="menu__link" href="/pages/contact/">Faq</a>
+                    <a class="menu__link" href="#faq">Faq</a>
                 </nav>
                 <div class="language">
                     <a id="toggle" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
@@ -78,7 +78,7 @@
                     <ul>
                       <li><a href="/">Home</a></li>
                       <li><a href="/pages/about/">About Us</a></li>
-                      <li><a href="/pages/contact/">Faq</a></li>
+                      <!-- <li><a href="/pages/faq/">Faq</a></li> -->
                     </ul>
                 </div>
             </div>
@@ -94,7 +94,7 @@
                         
                         <div class="home__body__div">
                             <form action="#" class="email__form">
-                                <input type="email" name="email" placeholder="Your Email Address" required="">
+                                <input type="email" name="email" placeholder="Your Email" required="">
                                 <button>Send</button>
                             </form>
                         </div>
@@ -252,7 +252,7 @@
         </div>
     </section>
 
-    <div class="holder">
+    <div class="holder holder__space">
         <div class="holder__content">
             <div class="holder__container">
                 <div>
@@ -267,115 +267,148 @@
         </div>
     </div>
 
-    <div class="container-steps">
-        <div class="left">
-            <div class="step" onclick="toggleParagraph(this)">
-                <div class="step-header">
-                    <div class="circle"></div>
-                    <span class="step-title">1. REGISTER AN ACCOUNT</span>
-                </div>
-                <p class="step-paragraph">Create your secure investment account in just a few clicks and access a world of opportunities.</p>
+    <section class="benefit">
+        <div class="container">
+            <div class="video-wrapper">
+                <video class="stretched-video" playsinline>
+                    <source src="assets/video.mp4" type="video/webm" />
+                </video>
             </div>
 
-            <div class="step" onclick="toggleParagraph(this)">
-                <div class="step-header">
-                    <div class="circle"></div>
-                    <span class="step-title">2. CHECK FOR A CONFIRMATION EMAIL</span>
-                </div>
-                <p class="step-paragraph">Verify your email address to activate your account and keep it protected.</p>
-            </div>
-
-            <div class="step" onclick="toggleParagraph(this)">
-                <div class="step-header">
-                    <div class="circle"></div>
-                    <span class="step-title">3. MAKE A DEPOSIT</span>
-                </div>
-                <p class="step-paragraph">Add funds to your account securely and prepare to begin your investment journey.</p>
-            </div>
-
-            <div class="step" onclick="toggleParagraph(this)">
-                <div class="step-header">
-                    <div class="circle"></div>
-                    <span class="step-title">4. NOT FEELING CONFIDENT? NO PROBLEM</span>
-                </div>
-                <p class="step-paragraph">Let's say you don't feel confident about investing. You don't want to lose money. Instead of other platforms that make you learn from hard and costly mistakes, SecuroomAi offers a simulator that allows you to test your strategy.</p>
-            </div>
-
-            <div class="arrow">
-                <a href="/pages/login"><img src="assets/arrow.svg"></a>
-            </div>
-        </div>
-        <div class="shiny_centered_original"></div>
-
-        <div class="right">
-            <img src="assets/secure.svg"  alt="Secure" class="secure">
-            <img src="assets/signal.svg" alt="Signal" class="signal">
-
-            <img src="assets/arrow.svg" alt="Arrow" class="arrow__1">
-            <img src="assets/arrow.svg" alt="Arrow" class="arrow__2">
-            <img src="assets/arrow.svg" alt="Arrow" class="arrow__3">
-            <img src="assets/arrow.svg" alt="Arrow" class="arrow__4">
-
-            <div class="arrow__line__1"></div>
-            <div class="arrow__line__2"></div>
-            <div class="arrow__line__3"></div>
-            <div class="arrow__line__4"></div>
-        </div>
-    </div>
-
-    <section class="faq-section">
-        <h1 class="faq-title faq-animate-left">Frequently Asked Questions</h1>
-        <div class="faq-content">
-            <div class="faq-column">
-                <div class="faq-item faq-animate-left">
-                    <h3 class="faq-animate-left">Can you use the platform at SecuroomAi for free?</h3>
-                    <p class="faq-animate-left">Unlike other platforms that may charge fees, SecuroomAi has no commissions, no signup fees, and no hidden fees imposed.</p>
-                </div>
-                <div class="faq-item faq-animate-left">
-                    <h3 class="faq-animate-left">Is investing a safe thing to do?</h3>
-                    <p class="faq-animate-left">Investments should be approached realistically – all investments carry some risk. The risk is related to the volatility of digital assets.</p>
+            <div class="outer circle" id="playPauseBtn">
+                <div class="inner circle">
+                    <img src="assets/play.png" class="play_icon" id="playIcon">
                 </div>
             </div>
 
-            <div class="faq-image">
-              <img src="assets/faq.webp" alt="FAQ" />
+            <div class="glass-card">
+                <h3>Expert account<br>managers available</h3>
+                <p>You can get help and solutions to your problems at any time that is convenient for you, regardless of your time zone or work schedule.</p>
+                <button class="underlined montserrat-italic">Register Now</button>
             </div>
 
-            <div class="faq-column">
-                <div class="faq-item faq-animate-right">
-                    <h3 class="faq__text faq-animate-right">Does SecuroomAi have a mobile version?</h3>
-                    <p class="faq__text faq-animate-right">To make a deposit, you need to deposit a minimum of $250. The money you deposit is always under your control. SecuroomAi allows you to deposit and withdraw money as you see fit. Simply go to your dashboard and click “Make Deposit” or “Withdraw Money”.</p>
+            <div class="benefit__row">
+                <div class="benefit__col benefit__center">
+                    <div class="icon icon-big icon__remove"><img src="assets/schedule.svg" alt=""></div>
+                    <p>Navigable interface</p>
                 </div>
-                <div class="faq-item faq-animate-right">
-                    <h3 class="faq__text faq-animate-right">How do I make a deposit or withdrawal?</h3>
-                    <p class="faq__text faq-animate-right">You will need to deposit a minimum of $250 to make a deposit. The money you deposit will always be under your control. SecuroomAi allows you to deposit and withdraw money as you see fit. Simply go to your dashboard and click “make a deposit” or “withdraw cash”.</p>
+                <div class="benefit__col benefit__center">
+                    <div class="icon icon-big icon__remove"><img src="assets/world.svg" alt=""></div>
+                    <p>Offering open to most<br> countries (excluding the USA)</p>
+                </div>
+                <div class="benefit__col benefit__center">
+                    <div class="icon icon-big icon__remove"><img src="assets/computer.svg" alt=""></div>
+                    <p>Simulator lets you develop<br> profitable trading strategies</p>
+                </div>
+                <div class="benefit__col benefit__center">
+                    <div class="icon icon-big icon__remove"><img src="assets/chart.svg" alt=""></div>
+                    <p>No platform fees</p>
                 </div>
             </div>
-        </div>
-
-        <div>
-            <a href="/pages/contact/"><button class="cta-button jura-light">Contact Us</button></a>
         </div>
     </section>
-    <div class="glow-line"></div>
+
+    <section class="faq">
+        <h2 class="title-2 center montserrat-regular">Frequently Asked <span>Questions</span></h2>
+        <div class="container__faq">
+            <div class="faq-left inverted-radius-faq">
+                <div class="contact-box">
+                    <p class="contact-title">Something in mind?</p>
+                    <p class="colored">Contact us by email<br>
+                    <a class="montserrat-italic" href="mailto:support@SecuroomAi.com">support@SecuroomAi.com</a></p>
+                </div>
+
+                <div class="block__img block__img-1 trading-card">
+                    <img src="assets/picture3.webp" alt="" loading="lazy" class="trading-card-front">
+                </div>
+            </div>
+
+            <div class="faq-right">
+                <p class="description">In this section we have collected answers to frequently asked questions related to the use of modern investment strategies.</p>
+
+                <div class="search-box">
+                    <input type="text" placeholder="Search Faq.....">
+                    <span class="search-icon">
+                        <img src="assets/search.png">
+                    </span>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <span class="faq-number montserrat-semibold">01</span>
+                          <div class="faq-text">
+                                <h3>Can you use the platform at SecuroomAi for free?</h3>
+                                <p>Unlike other platforms that may charge fees, SecuroomAi has no commissions, no signup fees, and no hidden fees imposed.</p>
+                          </div>
+                        <span class="arrow">
+                            <img src="assets/arrow-left.png">
+                        </span>
+                    </div>
+
+                    <div class="faq-item">
+                        <span class="faq-number montserrat-semibold">02</span>
+                        <div class="faq-text">
+                            <h3>Is investing a safe thing to do?</h3>
+                            <p>Investments should be approached realistically – all investments carry some risk. The risk is related to the volatility of digital assets.</p>
+                        </div>
+                        <span class="arrow">
+                            <img src="assets/arrow-left.png">
+                        </span>
+                    </div>
+
+                    <div class="faq-item">
+                        <span class="faq-number montserrat-semibold">03</span>
+                        <div class="faq-text">
+                            <h3>How do I make a deposit or withdrawal?</h3>
+                            <p>SecuroomAi allows you to deposit and withdraw money as you see fit. Simply go to your dashboard and click “make a deposit” or “withdraw cash”.</p>
+                        </div>
+                        <span class="arrow">
+                            <img src="assets/arrow-left.png">
+                        </span>
+                    </div>
+                </div>
+
+                <button class="learn-more">
+                    <span class="arrow faq__arrow">
+                        <img src="assets/arrow-down.png">
+                    </span>
+                    <span>Learn More</span>
+                </button>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="footer-top">
-            <div class="container">
+            <div class="container footer__container">
+                <div class="footer__first__section">
+                    <h3 class="title-form montserrat-semibold">Maximize Your Gains with<br> SecuroomAi</h3>
+                    <div class="home__body__div">
+                        <form action="#" class="email__form">
+                            <input type="email" name="email" placeholder="Enter Your Email" required="">
+                            <button>Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+                <hr />
                 <div class="flex-bl">
                     <a href="/" class="logo"><img src="assets/logo.svg" alt=""></a>
                     <ul class="nav nav1">
-                        <li class="nav__link"><a href="/pages/login/">Login</a></li>
                         <li class="nav__link"><a href="/">Home</a></li>
                         <li class="nav__link"><a href="/pages/about/">About Us</a></li>
-                        <li class="nav__link"><a href="/pages/contact/">Contact Page</a></li>
+                        <li class="nav__link"><a href="/pages/contact/">Contact Us</a></li>
                     </ul>
                 </div>
-                <p class="jura-light center">
+
+                <p class="jura-light">
                     <span class="jura-demibold">Important Risk Note:</span>
                     <br>
                     It should be noted that investments can be very risky and should be approached with caution, especially during periods of extreme volatility. According to data, about 70% of investors lose money at one point or another. However, the market can also be very profitable with the right trades. Remember that SecuroomAi, and any other commercial names used on this platform, are for commercial purposes only. Make sure you read the Terms and Conditions carefully, as they contain everything you need to know about how we operate. With regard to your personal information, you agree that we may share your personal information with necessary third parties. This primarily applies to organizations that provide trading services in accordance with our <a href="/pages/policy/">Privacy Policy</a> and <a href="/pages/terms/">Terms and Conditions</a>.
                 </p>
+                <hr />
+                <div>
+                    <p class="copyright">© Copyright <span class="montserrat-semibold">SecuroomAi</span>, All Rights Reserved</p>
+                </div>
             </div>
         </div>
     </footer>
@@ -392,11 +425,35 @@
         });
         stepElement.classList.toggle("open");
     }
-</script>
 
-<script>
-  const logoVideo = document.getElementById('logo');
-  logoVideo.playbackRate = 0.5;
+    // LOGO WEBM SPEED
+    const logoVideo = document.getElementById('logo');
+    logoVideo.playbackRate = 0.5;
+
+    // VIDEO PLAY
+    const video = document.querySelector('.stretched-video');
+    const playBtn = document.getElementById('playPauseBtn');
+    const playIcon = document.getElementById('playIcon');
+    const glassCard = document.querySelector('.glass-card');
+
+    playBtn.addEventListener('click', () => {
+        video.play();
+        playBtn.style.display = 'none';
+        glassCard.style.display = 'none';
+    });
+
+    video.addEventListener('click', () => {
+        if (!video.paused) {
+            video.pause();
+            playBtn.style.display = 'flex';
+            glassCard.style.display = 'block';
+        }
+    });
+
+    video.addEventListener('ended', () => {
+        playBtn.style.display = 'flex';
+        glassCard.style.display = 'block';
+    });
 </script>
 
 </body>
