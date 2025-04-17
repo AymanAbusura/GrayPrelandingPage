@@ -693,3 +693,323 @@ footer hr {
 .copyright span {
     color: #fff;
 }
+
+@media (width: 1024px) {
+    .logo_video {
+        margin-left: -71px;
+    }
+    .home__hold {
+        flex-direction: row;
+        gap: 0;
+        width: 1000px;
+    }
+    .home__content {
+        align-items: unset;
+    }
+    .home__body__div {
+        justify-content: flex-start;
+    }
+    .home__body__div__2 {
+        margin-left: 0;
+    }
+    .home__body__div__3 {
+        margin-left: 0;
+    }
+    .email__form {
+        margin: 0;
+    }
+    .picture__1 {
+        width: 350px;
+    }
+    .right-box {
+        margin-left: 0;
+    }
+    .stats__section {
+        width: 1000px;
+    }
+    .inverted-radius {
+        width: 305px;
+    }
+    .why_card {
+        padding-left: 10px;
+    }
+    .why_card p {
+        margin-top: 20px;
+    }
+    .block__line:nth-child(1) .number-box {
+        left: 26%;
+    }
+    .block__line:nth-child(2) .number-box {
+        left: 60.5%;
+    }
+    .block__line:nth-child(3) .number-box {
+        left: 96%;
+    }
+    .container__faq {
+        width: 1000px;
+    }
+    .faq-number {
+        font-size: 20px;
+        width: 8%;
+    }
+    .faq h2 {
+        left: 20%;
+    }
+    .inverted-radius-faq {
+        --x: 200px;
+        --y: 105px;
+    }
+    .faq-left {
+        padding-left: 5px;
+    }
+    .arrow img {
+        width: 35px;
+        height: 30px;
+    }
+    .faq__arrow img {
+        width: 20px;
+        height: 20px;
+    }
+    .container__faq .trading-card-front {
+        width: 350px;
+    }
+    .footer__container {
+        width: 1000px;
+    }
+}
+
+@media (max-width: 768px) {
+    .left-box { display: none; }
+    .home__hold { 
+        flex-direction: column; 
+        max-width: 700px; 
+    }
+    .home__body__next__box {
+        padding: 0;
+    }
+    .description__text {
+        text-align: center;
+    }
+    .home__body__div__2 {
+        margin-left: 0;
+    }
+    .right-box {
+        margin-left: 0;
+        padding: 20px 0;
+        text-align: center;
+    }
+    .right-box p {
+        margin-top: 10px;
+    }
+    .stats__section {
+        width: 700px;
+    }
+    .buttons-container {
+        justify-content: center;
+    }
+    .block__how {
+        padding-block: 50px;
+    }
+    .block__how h2 span {
+        display: inline;
+    }
+
+    .holder__container {
+        flex-direction: column;
+        gap: 0;
+    }
+    .text__holder__container {
+        font-size: 44px;
+        text-align: left;
+    }
+    .text__holder__container span {
+        display: inline;
+    }
+
+    .why_cards {
+        flex-direction: column;
+    }
+    .why_card {
+        flex: unset;
+    }
+    .block__line {
+        justify-content: center;
+    }
+    .block__line:nth-child(1) .number-box {
+        left: 68%;
+    }
+    .block__line:nth-child(2) .number-box {
+        left: 68%;
+        top: 37%;
+    }
+    .block__line:nth-child(3) .number-box {
+        left: 68%;
+        top: 71%;
+    }
+
+    .glass-card {
+        left: 53%;
+    }
+    .benefit__col p {
+        text-align: left;
+    }
+
+    .container__faq {
+        flex-direction: column;
+        width: 700px;
+    }
+    .faq-left {
+        display: none;
+    }
+    .faq-right {
+        margin-top: 0;
+    }
+    .faq-number {
+        width: 10%;
+    }
+    .faq h2 {
+        position: unset;
+        display: inline-flex;
+        gap: 5px;
+    }
+
+    .footer__container {
+        width: 700px;
+    }
+}
+
+@media (max-width: 425px) {
+    .home__hold {
+        width: 400px;
+    }
+    .logo_video {
+        width: 450px;
+    }
+    .email__form {
+        flex-direction: column;
+        max-width: 300px;
+        background: transparent;
+    }
+    .email__form button {
+        margin-left: 0;
+    }
+    .home__body__div__3 {
+        margin-left: 0;
+    }
+    .context {
+        flex-direction: column;
+    }
+    .context__content {
+        margin-left: 7px;
+    }
+    .description__text {
+        text-align: left;
+    }
+    .right-box {
+        text-align: left;
+    }
+
+    .stats__section {
+        width: 400px;
+    }
+
+    .about__description {
+        flex-direction: column;
+    }
+
+    .block__line:nth-child(1) .number-box {
+        left: 82%;
+    }
+    .block__line:nth-child(2) .number-box {
+        left: 82%;
+    }
+    .block__line:nth-child(3) .number-box {
+        left: 82%;
+    }
+
+    .text__holder__container {
+        font-size: 40px;
+    }
+
+    .glass-card {
+        display: none;
+    }
+    .outer {
+        left: 40%;
+        top: 20%;
+    }
+
+    .container__faq {
+        width: 400px;
+    }
+    .faq-number {
+        width: 20%;
+    }
+    .arrow img {
+        width: 50px;
+        height: 30px;
+    }
+    .faq__arrow img {
+        width: 20px;
+        height: 20px;
+    }
+    .faq h2 {
+        display: unset;
+    }
+
+    .footer {
+        padding-top: 100px;
+    }
+    .footer__container {
+        width: 400px;
+    }
+    footer .email__form {
+        display: flex;
+        flex-direction: column;
+        border: none;
+    }
+    footer .email__form input[type="email"] {
+        border: 1px solid #fff;
+    }
+}
+
+@media (max-width: 375px) {
+    .home__hold {
+        width: 350px;
+    }
+    .logo_video {
+        width: 350px;
+    }
+
+    .stats__section {
+        width: 350px;
+    }
+
+    .block__line:nth-child(1) .number-box { left: 87%; }
+    .block__line:nth-child(2) .number-box { left: 87%; }
+    .block__line:nth-child(3) .number-box { left: 87%; }
+
+    .outer { left: 35%; }
+
+    .container__faq { width: 350px; }
+    .faq h2 { font-size: 30px }
+    .faq-number { width: 26%; }
+
+    .footer__container { width: 350px; }
+}
+
+@media (max-width: 320px) {
+    .home__hold { width: 300px; }
+    .stats__section { width: 300px; }
+
+    .block__line:nth-child(1) .number-box { left: 84%; }
+    .block__line:nth-child(2) .number-box { left: 84%; top: 39%; }
+    .block__line:nth-child(3) .number-box { left: 84%; top: 73%; }
+
+    .container__faq { width: 300px; }
+    .faq-number { width: 36%; }
+
+    .footer { padding-top: 200px; }
+    .footer__container { width: 300px; }
+    footer .email__form { width: 290px; }
+}
