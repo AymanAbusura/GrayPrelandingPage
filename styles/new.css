@@ -373,7 +373,12 @@ hr {
     height: 100%;
     background: linear-gradient(to bottom, rgba(0,0,0,0.4), rgba(0,0,0,0.6));
     border-radius: 12px;
-    pointer-events: none; /* so clicks pass through to play button */
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.video-wrapper.no-overlay::after {
+    opacity: 0;
 }
 
 .stretched-video {
