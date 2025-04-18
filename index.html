@@ -429,6 +429,48 @@
     const logoVideo = document.getElementById('logo');
     logoVideo.playbackRate = 0.5;
 
+    // SCRIPT FOR INCREASING NUMBERS
+    document.addEventListener("DOMContentLoaded", () => {
+        const counters = [
+            { element: document.querySelectorAll(".stat__item h2")[0], target: 265, suffix: "K", prefix: "" },
+            { element: document.querySelectorAll(".stat__item h2")[1], target: 89, suffix: "K", prefix: "+" },
+            { element: document.querySelectorAll(".stat__item h2")[2], target: 89, suffix: "+", prefix: "" },
+            { element: document.querySelectorAll(".stat__item h2")[3], target: 98, suffix: "%", prefix: "" },
+        ];
+
+        const duration = 1500;
+
+        const animateValue = (el, start, end, duration, prefix = "", suffix = "") => {
+            let startTime = null;
+
+            const step = (timestamp) => {
+                if (!startTime) startTime = timestamp;
+                const progress = Math.min((timestamp - startTime) / duration, 1);
+                const value = Math.floor(progress * (end - start) + start);
+                el.textContent = `${prefix}${value}${suffix}`;
+                if (progress < 1) {
+                    requestAnimationFrame(step);
+                }
+            };
+
+            requestAnimationFrame(step);
+        };
+
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    counters.forEach(counter => {
+                        animateValue(counter.element, 0, counter.target, duration, counter.prefix, counter.suffix);
+                    });
+                    observer.disconnect();
+                }
+            });
+        }, { threshold: 0.5 });
+
+        const statsSection = document.querySelector(".stats__section");
+        if (statsSection) observer.observe(statsSection);
+    });
+
     // VIDEO PLAY
     const videoContainer = document.getElementById('videoContainer');
     const playBtn = document.getElementById('playPauseBtn');
@@ -456,6 +498,49 @@
             videoContainer.appendChild(iframe);
         }
     });
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const counters = [
+        { element: document.querySelectorAll(".stat__item h2")[0], target: 265, suffix: "K", prefix: "" },
+        { element: document.querySelectorAll(".stat__item h2")[1], target: 89, suffix: "K", prefix: "+" },
+        { element: document.querySelectorAll(".stat__item h2")[2], target: 89, suffix: "+", prefix: "" },
+        { element: document.querySelectorAll(".stat__item h2")[3], target: 98, suffix: "%", prefix: "" },
+    ];
+
+    const duration = 1500;
+
+    const animateValue = (el, start, end, duration, prefix = "", suffix = "") => {
+        let startTime = null;
+
+        const step = (timestamp) => {
+            if (!startTime) startTime = timestamp;
+            const progress = Math.min((timestamp - startTime) / duration, 1);
+            const value = Math.floor(progress * (end - start) + start);
+            el.textContent = `${prefix}${value}${suffix}`;
+            if (progress < 1) {
+                requestAnimationFrame(step);
+            }
+        };
+
+        requestAnimationFrame(step);
+    };
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                counters.forEach(counter => {
+                    animateValue(counter.element, 0, counter.target, duration, counter.prefix, counter.suffix);
+                });
+                observer.disconnect();
+            }
+        });
+    }, { threshold: 0.5 });
+
+    const statsSection = document.querySelector(".stats__section");
+    if (statsSection) observer.observe(statsSection);
+});
 </script>
 
 </body>
