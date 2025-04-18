@@ -523,7 +523,8 @@ textarea{
 }
 .form-contact{
 	margin-inline:auto;
-	max-width:630px
+	max-width:630px;
+	z-index: 3;
 }
 .card__img img,.holder__image img{
 	max-width:100%
