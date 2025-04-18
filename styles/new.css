@@ -802,6 +802,7 @@ footer hr {
 }
 
 @media (max-width: 768px) {
+    .logo_video { width: 300px; }
     .left-box { display: none; }
     .home__hold { 
         flex-direction: column; 
