@@ -717,6 +717,116 @@ footer hr {
     color: #fff;
 }
 
+.footer__container__pages {
+    background: none;
+}
+
+.inside__form {
+    background: #a8a7a7;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.form__info__login li {
+    color: #ffffffb3!important;
+}
+
+.form__bg ul li {
+    font-size: 14px!important;
+}
+
+.form__info__login ul li a {
+    color: #ffffffb3!important;
+    text-decoration: none;
+    font-weight: 400!important;
+}
+
+.right-box__login {
+    margin-left: 120px;
+}
+
+.title-form__login {
+    font-size: 30px!important;
+}
+
+.logo_1_size {
+    width: 60%;
+}
+
+.title__about {
+    color: #fff;
+    margin-left: 100px;
+}
+
+.container__started__about {
+    position: relative;
+    background: url(../assets/picture1.webp) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+    border: 1px solid #666;
+    border-radius: 10px;
+}
+
+.container__started__about::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000400ba;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.block__wrap__about {
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+.block__hold {
+    flex: 1 1 35%;
+}
+
+.block__middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 auto;
+}
+
+.glass-card1 {
+    position: unset;
+}
+
+.glass-card1 p {
+    text-align: left;
+}
+
+.glass-card1 h3 {
+    font-weight: 400;
+}
+
+.container__started__about button {
+    border: none;
+    text-align: left;
+    padding-right: 0;
+    padding-left: 0;
+    color: #ffffffb3;
+}
+
 @media (width: 1024px) {
     .logo_video {
         margin-left: -71px;

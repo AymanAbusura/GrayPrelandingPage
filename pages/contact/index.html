@@ -15,7 +15,7 @@
 <body>
 <div class="wrapper">
 	<div class="video-section">
-            <header class="header">
+        <header class="header">
             <!-- DESKTOP NAVIGATION -->
             <a href="/" class="logo">
                 <img src="../../assets/logo.svg" alt="">
@@ -24,7 +24,6 @@
                 <nav class="nav desktop-nav">
                     <a class="menu__link " href="/">Home</a>
                     <a class="menu__link " href="../../pages/about/">About Us</a>
-                    <a class="menu__link" href="../../pages/faq/">Faq</a>
                 </nav>
                 <div class="language">
                     <a id="toggle" class="menu__link stop_hover"><div class="iti__flag iti__gb"></div>En</a>
@@ -76,38 +75,54 @@
                     <ul>
                       <li><a href="/">Home</a></li>
                       <li><a href="../../pages/about/">About Us</a></li>
-                      <li><a href="../../pages/faq/">Faq</a></li>
                       <li><a href="../../pages/contact/">Contact Us</a></li>
                     </ul>
                 </div>
             </div>
         </header>
             
-            <section class="contact">
-                <div class="container">
-                    <h1 class="title-2 center">Contact Us</h1>
-                    <p class="descr" style="color: #fff;">Your future in investing is waiting for you. Sign up for SecuroomAi today and let's build it together.</p>
-                    <div class="form-contact form__bg">
-                        <form action="#" class="form form__contact" style="background: #292c34;">
-                            <div class="form-group">
-                                <input type="text" id="fname" placeholder="Enter your first name" value="">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" id="email" placeholder="Enter your email address" value="">
-                            </div>
-                            <div class="form-group">
-                                <textarea id="msg" placeholder="Enter your message"></textarea>
-                            </div>
-                            <button class="btn btn-contact" type="submit">Send message</button>
-                        </form>
+        <section class="contact">
+            <div class="container contact__container">
+                <div class="form-contact form__bg contact_form__div">
+                    <h1 class="title-2 center uppercase">Contact <span class="different" style="display: inline;">Us</span></h1>
+                    <form action="#" class="form form__contact">
+                        <p class="descr clearly__text">Your future in investing is waiting for you.<br> Sign up for <span style="display: inline; text-transform: uppercase;">SecuroomAi</span> today and let's build it together!</p>
+                        <div class="inside__form">
+                        <div class="form-group">
+                            <input type="text" id="fname" placeholder="Enter your first name" value="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Enter your email address" value="">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="msg" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button class="btn btn-contact" type="submit">Send Message</button>
+                    </div>
+                    </form>
+                </div>
+
+                <div class="home__body__next__box home__body__next__box__contact_mobile">
+                    <div class="left-box">
+                        <div class="block__img block__img-1 picture__1">
+                            <img src="../../assets/picture1.webp" alt="" loading="lazy">
+                        </div>
+                    </div>
+
+                    <div class="right-box right-box__login">
+                        <h1>Investments and Profits</h1>
+                        <p>We are committed to empowering inaviduals and businesses with efficient and safe investment solutions.</p>
+                        <a href="../../pages/terms"><p class="underlined montserrat-italic">Terms & Conditions</p></a>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
+    </div>
 
-		<footer class="footer">
+    <footer class="footer">
         <div class="footer-top">
-            <div class="container footer__container">
+            <div class="container footer__container footer__container__pages">
+                <hr />
                 <div class="flex-bl">
                     <a href="/" class="logo"><img src="../../assets/logo.svg" alt=""></a>
                     <ul class="nav nav1">
@@ -129,7 +144,7 @@
             </div>
         </div>
     </footer>
-	</div>
+</div>
 
 <script src="../../js/scripts.js"></script>
 <script src="../../js/main.js"></script>

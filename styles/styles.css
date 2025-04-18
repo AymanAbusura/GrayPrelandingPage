@@ -571,7 +571,7 @@
     bottom: 22%;
 }
 
-/* Why Trade with SecuroomAi? */
+/* Why Trade? */
 .left-box__block { height: 50%; }
 
 .video-section-2 {
@@ -957,7 +957,7 @@
     right: 37%;
 }
 
-/* Getting Started with SecuroomAi */
+/* Getting Started */
 .title_started {
 	margin-bottom: 10px;
 	text-transform: uppercase;
@@ -1475,27 +1475,54 @@ footer .nav-footer .language>a::after{
 .login_color { color: #fff!important; }
 
 .login_form__bg {
+    background: #292c34;
 	position: unset!important;
 	display: flex;
     justify-content: center;
+    padding: 50px!important;
 }
 
 .login_form__div {
-	border: 1px solid #e48c2a;
-	border-radius: 30px;
+/*	border: 1px solid #e48c2a;*/
+	border-radius: 20px;
 	padding: 20px;
-	max-width: 500px;
-    background: #00000094;
+/*	max-width: 500px;*/
+    background: #66666633;
+    flex: 1;
 }
 
-.login_form__div input {
-	border: 1px solid #e48c2a;
+.login_form__div input, .contact_form__div input, .contact_form__div textarea {
+    border: none!important;
+    border-radius: 10px!important;
+    background: #fff!important;
+    color: #000!important;
+}
+
+.login_form__div button, .contact_form__div button {
+    color: #fff!important;
+    border-radius: 10px!important;
+}
+
+.login_form__div h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* CONTACT PAGE */
+.contact_form__div {
+    max-width: unset!important;
+    flex: 1!important;
+}
+
+.clearly__text {
+    font-size: 18px!important;
+    font-weight: 400!important;
+    color: #ffffffb3!important;
+}
+
 .form__contact {
-    border: 1px solid #e48c2a; 
-    background: #00000094;
+    background: #66666633;
 }
 .contact_us_title {
     font-size: 40px !important;
@@ -1534,6 +1561,17 @@ footer .nav-footer .language>a::after{
 
 .btn-contact {
 	margin-top: 100px;
+    text-transform: none!important;
+    font-weight: 400!important;
+    color: #fff!important;
+}
+
+.contact__container {
+    display: flex;
+    flex: 1;
+    background: #292c34;
+    border-radius: 20px;
+    padding: 30px;
 }
 
 .contact_line { bottom: 7rem; }
@@ -1550,100 +1588,97 @@ footer .nav-footer .language>a::after{
 }
 
 .about-section {
-  padding: 60px 20px;
-  position: relative;
-  z-index: 1;
+    padding: 60px 20px;
+    position: relative;
+    z-index: 1;
 }
 
 .about-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
-  max-width: 1200px;
-  margin: 0 auto;
-  align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
 }
 
 .about-left {
-  flex: 1;
-  min-width: 320px;
+    flex: 1;
+    min-width: 320px;
 }
 
 .about-right {
-  flex: 1;
-  min-width: 300px;
-  position: relative;
+    flex: 1;
+    min-width: 300px;
+    position: relative;
 }
 
 .about-box {
-  background: #170f02;
-  padding: 30px;
-  border-radius: 20px;
-  margin-bottom: 30px;
+    border-radius: 20px;
+    margin-bottom: 30px;
 }
 
 .about-title {
     color: #fff;
-  font-size: 30px;
-  text-transform: uppercase;
-  margin-bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
 .highlight {
-  color: #e48c2a;
-  letter-spacing: 1px;
+    color: #e48c2a;
+    letter-spacing: 1px;
 }
 
 .about-text {
-  font-size: 16px;
-  line-height: 1.6;
-  margin-bottom: 15px;
-  color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    color: #fff;
 }
 
 .info-box {
-  border: 1px solid #e48c2a;
-  border-radius: 15px;
-  padding: 25px;
-  background: #0d0d0d;
+    border: 1px solid #e48c2a;
+    border-radius: 15px;
+    padding: 25px;
+    background: #0d0d0d;
 }
 
 .info-title {
-  color: #e48c2a;
-  text-transform: uppercase;
-  margin-top: 15px;
-  margin-bottom: 5px;
-  font-size: 16px;
+    color: #e48c2a;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
 }
 
 .info-text {
-  font-size: 14px;
-  line-height: 1.5;
-  color: #fff;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
 }
 
 .image-wrapper {
-  position: relative;
-  padding-top: 30px;
+    position: relative;
+    padding-top: 30px;
 }
 
 .image-bg {
-  position: absolute;
-  top: 0;
-  left: 30px;
-  width: 100%;
-  height: 100%;
-  background: #ff8a1f;
-  border-radius: 15px;
-  z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 30px;
+    width: 100%;
+    height: 100%;
+    background: #ff8a1f;
+    border-radius: 15px;
+    z-index: 0;
 }
 
 .about-image {
-  position: relative;
-  z-index: 1;
-  border-radius: 15px;
-  max-width: 100%;
-  display: block;
+    position: relative;
+    z-index: 1;
+    border-radius: 15px;
+    max-width: 100%;
+    display: block;
 }
 
 .container__trading__about {
@@ -1721,6 +1756,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (width: 1024px) {
+    .form__bg { gap: 20px; }
     .line { top: 135px }
 	.header { padding: 15px 20px; }
 	.form__bg-mobile { bottom: 1rem; }
@@ -1735,7 +1771,7 @@ footer .nav-footer .language>a::after{
     	height: 844px;
 	}
 
-/* Why Trade with SecuroomAi? */
+/* Why Trade? */
 	.container__trading { gap: 10px; }
 	.block__img__trading { width: 100%; }
 	.container__trading__description { justify-content: flex-end; }
@@ -1744,7 +1780,7 @@ footer .nav-footer .language>a::after{
 	.block__title-2 { font-size: 30px; }
 	.number__info { font-size: 8px; }
 
-/* How does SecuroomAi improve your trading experience? */
+/* How does  improve your trading experience? */
 	.benefit-line {
 		width: 104%;
 		right: 18%;
@@ -1755,7 +1791,7 @@ footer .nav-footer .language>a::after{
         right: 34%;
 	}
 
-/* Getting Started with SecuroomAi */
+/* Getting Started */
 	.flash_step2 {
 	    background-size: cover;
 	    height: 300px;
@@ -1778,6 +1814,14 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 768px) {
+    .footer__about { padding-top: 100px; }
+    .glass-card { width: 250px!important; }
+    .title__about { margin-left: 10px!important; }
+    .block__wrap__about { gap: 10px!important; }
+    .container__started__about { width: 90%!important; }
+    .about__screen { padding-block: 0 !important; }
+    .footer__about_mobile { padding-top: 0px!important; }
+    .home__body__next__box__about_mobile, .home__body__next__box__contact_mobile { display: none!important; }
     .container__trading__description__about { width: 100%!important; }
     .line__circled__about { display: none!important; }
     .container__trading__about { flex-direction: column; }
@@ -1932,7 +1976,7 @@ footer .nav-footer .language>a::after{
         left: 40%;
 	}
 
-/* Why Trade with SecuroomAi? */
+/* Why Trade? */
 	.container__trading { gap: 10px; }
 	.block__img__trading { align-items: normal; width: 70%; }
 	.trading_rocket { width: auto; }
@@ -1940,7 +1984,7 @@ footer .nav-footer .language>a::after{
 	.coin { width: 50%; }
 	.rocket { padding: 10px; }
 
-/* How does SecuroomAi improve your trading experience? */
+/* How does  improve your trading experience? */
 	.experience__title { font-size: 30px; }
 	.experience__info { max-width: 100%; }
 	.experience__button { margin: 0 auto; margin-top: 20px; }
@@ -1951,7 +1995,7 @@ footer .nav-footer .language>a::after{
 	.benefit-line { display: none; }
 	.benefit__col span { text-align: center; }
 
-/* Getting Started with SecuroomAi */
+/* Getting Started */
 	.steps__cards {
 		flex-direction: column;
 		margin-top: 50px;
@@ -2061,6 +2105,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 425px) {
+    .footer__about { padding-top: 10px!important; }
     .buttons-container__about { flex-direction: column; }
 
     .arrow__line__1 { width: 13%; }
@@ -2086,7 +2131,7 @@ footer .nav-footer .language>a::after{
 	}
 	.space { padding-block: 50px!important; }
 
-/* Why Trade with SecuroomAi? */
+/* Why Trade? */
 	.container__trading {
 	    flex-direction: column;
 	    align-items: center;
@@ -2099,7 +2144,7 @@ footer .nav-footer .language>a::after{
 	.container__trading__details { width: 100%; align-items: center; }
 	.container__trading__details__info button { margin: 0 auto; margin-top: 20px; }
 
-/* Getting Started with SecuroomAi */
+/* Getting Started */
 	.step__card:nth-child(1), .step__card:nth-child(3) { 
 		margin-right: 0; 
 		margin-left: 0; 
@@ -2134,6 +2179,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 375px) {
+    .login_form__div { padding: 0; }
     .buttons-container__about { align-items: center; }
 
     .home__text { font-size: 30px; }
@@ -2169,6 +2215,8 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 320px) {
+    .contact_form__div { padding: 20px 0px!important; }
+    .login_form__div { background: transparent; }
     .about-title { font-size: 24px; }
     .about-box { width: 90%; }
     .info-box { width: 90%; }
