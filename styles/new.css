@@ -4,19 +4,57 @@
     width: 60%;
     height: 100%;
 }
+
 .flash1 {
     bottom: 22%;
     left: 60%;
     z-index: 4;
 }
+
 .flash2 {
     bottom: 0%;
-    left: 0%;
+    right: 60%;
     z-index: 2;
 }
+
 .flash3 {
     top: 70%;
     left: 20%;
+    z-index: 1;
+}
+
+.flash_benefit {
+    left: 20%;
+    top: 35%;
+}
+
+.flash1_footer {
+    bottom: 20%;
+    left: 10%;
+}
+
+.flash2_footer {
+    left: 50%;
+    top: 20%;
+}
+
+.flash3_footer {
+    top: 45%;
+    right: 50%;
+}
+
+.flash3_about {
+    bottom: 40%;
+    right: 60%;
+}
+
+.flash4_about {
+    left: 65%;
+}
+
+.home__content, .home__body__next__box {
+    position: relative;
+    z-index: 5!important;
 }
 
 .home__body__div__2 {
@@ -377,6 +415,7 @@ hr {
     display: flex;
     justify-content: center;
     position: relative;
+    z-index: 4;
 }
 
 .video-thumbnail {
@@ -411,6 +450,8 @@ hr {
 
 .benefit .circle {
     border-radius: 50%;
+    position: relative;
+    z-index: 5;
 }
 
 .outer {
@@ -465,6 +506,7 @@ hr {
     background: rgb(255 255 255 / 20%);
     border-radius: 20px;
     color: white;
+    z-index: 5;
 }
 
 .glass-card h3 {
@@ -632,7 +674,7 @@ hr {
     font-size: 25px;
     text-align: center;
     color: #fff;
-    width: 5%;
+    width: 6%;
 }
 
 .faq-text h3 {
@@ -697,6 +739,15 @@ hr {
 }
 
 /* FOOTER CONTAINER */
+footer {
+    position: relative;
+}
+
+footer .flex-bl, footer p {
+    position: relative;
+    z-index: 4;
+}
+
 .footer__container {
     background: #292c34;
     padding: 30px;
@@ -828,6 +879,7 @@ footer hr {
     align-items: center;
     justify-content: center;
     flex: 0 0 auto;
+    cursor: pointer;
 }
 
 .glass-card1 {

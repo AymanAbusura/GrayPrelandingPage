@@ -59,7 +59,7 @@ img{
 }
 
 *{
-	font-family: 'Jura', sans-serif;
+	font-family: 'montserrat', sans-serif;
 }
 body,html{
 	position:relative;
@@ -693,6 +693,8 @@ textarea{
 	max-width:320px
 }*/
 .faq{
+	position: relative;
+	z-index: 5;
 /*	background: #000;*/
 }
 .faq__row{

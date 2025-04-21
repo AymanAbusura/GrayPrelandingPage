@@ -48,7 +48,7 @@
                         <li class="subitem"><a href="/languages/se/"><div class="iti__flag iti__se"></div>SE</a></li>
                     </ul>
                 </div>
-                <a href=""><button class="contact-btn">Get Started</button></a>
+                <a href="/pages/login"><button class="contact-btn">Get Started</button></a>
             </div>
 
             <!-- Mobile Navigation -->
@@ -77,6 +77,7 @@
                 <div id="menu">
                     <ul>
                       <li><a href="/">Home</a></li>
+                      <li><a href="/pages/login/">Login</a></li>
                       <li><a href="/pages/about/">About Us</a></li>
                       <li><a href="/pages/contact/">Contact Us</a></li>
                     </ul>
@@ -85,11 +86,13 @@
         </header>
 
         <section class="home">
+            <div class="flash flash1"></div>
+            <div class="flash flash2"></div>
             <div class="container home__hold">
                 <div class="home__body">
                     <div class="home__content">
                         <video id="logo" class="logo_video" src="assets/logo.webm" autoplay muted loop playsinline></video>
-                        <span class="home__text jura-regular">Invest Profitably - <p>develop together with us!</p></span>
+                        <span class="home__text montserrat-regular">Invest Profitably - <p>develop together with us!</p></span>
                         <p class="description__text">SecuroomAi - is a reliable investment company that offers professional services in the feld of asset management. We strive to provide our clients with stable income and safety of investments.</p>
                         
                         <div class="home__body__div">
@@ -174,7 +177,9 @@
         </div>
     </section>
 
-    <section class="block p0 spacing">
+    <section class="block p0 spacing" style="position: relative; z-index: 3;">
+        <div class="flash flash3_about"></div>
+        <div class="flash flash4_about"></div>
         <div class="container">
             <div class="block__row">
                 <div class="block__img block__img-1 trading-card">
@@ -182,24 +187,24 @@
                 </div>
 
                 <div class="block__col">
-                    <h2 class="title-2 title-1">What is SecuroomAi?</h2>
+                    <h2 class="title-2 title-1 montserrat-regular">What is SecuroomAi?</h2>
                     <p class="txt jura-light">SecuroomAi is a platform designed to bring growth and success for everyone. This platform is characterized by enhanced security and an offer that cannot be ignored. The convenience of this platform allows investors of all backgrounds and abilities to connect to it. This diversity has become one of the biggest advantages of SecuroomAi because you get support from the best.</p>
                     
                     <div class="buttons-container">
-                        <button class="cta-button">Start Investing</button>
+                        <a href="/pages/login"><button class="cta-button">Start Investing</button></a>
                     </div>
 
                     <div class="about__description">
                         <div>
                             <h1>Secure Platform</h1>
                             <p>When choosing a platform, you want to make sure that your money is placed in a safe and secure place that will continue to grow over...</p>
-                            <button class="underlined montserrat-italic">Read More</button>
+                            <a href="/pages/about"><button class="underlined montserrat-italic">Read More</button></a>
                         </div>
 
                         <div>
                             <h1>Streamlining the Process</h1>
                             <p>Invest on our platform the way you want to invest. Everything in SecuroomAi has been designed to be intuitive to navigate the...</p>
-                            <button class="underlined montserrat-italic">Read More</button>
+                            <a href="/pages/about"><button class="underlined montserrat-italic">Read More</button></a>
                         </div>
                     </div>
                 </div>
@@ -219,7 +224,7 @@
                             <div class="block__body__description">
                                 <h3 class="block__title poppins-semibold">Register an Account</h3>
                                 <p>First, you must register an account with SecuroomAi. Head over to the login page and look below to what says, “Register a New Account.” Click the link to enter the next page where it will tell you to fill out your basic details, such as name, phone number, and email address.</p>
-                                <button class="underlined montserrat-italic">Register Now</button>
+                                <a href="/pages/login"><button class="underlined montserrat-italic">Register Now</button></a>
                             </div>
                         </div>
                     </div>
@@ -231,7 +236,7 @@
                             <div class="block__body__description">
                                 <h3 class="block__title poppins-semibold">Check for a Confirmation</h3>
                                 <p>A confirmation email is headed your way, granting access to SecuroomAi. Shortly after, you'll receive a direct line to your expert account manager - your partner in navigating the crypto landscape.</p>
-                                <button class="underlined montserrat-italic">Register Now</button>
+                                <a href="/pages/login"><button class="underlined montserrat-italic">Register Now</button></a>
                             </div>
                         </div>
                     </div>
@@ -243,7 +248,7 @@
                             <div class="block__body__description">
                                 <h3 class="block__title poppins-semibold">Make a Deposit</h3>
                                 <p>Empower your trading journey with an initial deposit of just $250, providing the capital needed to launch your SecuroomAi experience.</p>
-                                <button class="underlined montserrat-italic">Register Now</button>
+                                <a href="/pages/login"><button class="underlined montserrat-italic">Register Now</button></a>
                             </div>
                         </div>
                     </div>
@@ -261,7 +266,7 @@
 
                 <div class="holder__body">
                     <p class="txt experience__info jura-light">By choosing our platform, you can rest assured that your money is placed in a safe and secure place that will continue to grow over time. You cannot underestimate the value of a platform that protects your money.</p>
-                    <a href=""><button class="cta-button experience__button">Start Payment</button></a>
+                    <a href="/pages/login"><button class="cta-button experience__button">Start Payment</button></a>
                 </div>
             </div>
         </div>
@@ -282,10 +287,11 @@
             <div class="glass-card">
                 <h3>Expert account<br>managers available</h3>
                 <p>You can get help and solutions to your problems at any time that is convenient for you, regardless of your time zone or work schedule.</p>
-                <button class="underlined montserrat-italic">Register Now</button>
+                <a href="/pages/login"><button class="underlined montserrat-italic">Register Now</button></a>
             </div>
 
             <div class="benefit__row">
+                <div class="flash flash_benefit"></div>
                 <div class="benefit__col benefit__center">
                     <div class="icon icon-big icon__remove"><img src="assets/schedule.svg" alt=""></div>
                     <p>Navigable interface</p>
@@ -378,6 +384,9 @@
 
     <footer class="footer">
         <div class="footer-top">
+            <div class="flash flash1_footer"></div>
+            <!-- <div class="flash flash2_footer"></div> -->
+            <!-- <div class="flash flash3_footer"></div> -->
             <div class="container footer__container">
                 <div class="footer__first__section">
                     <h3 class="title-form montserrat-semibold">Maximize Your Gains with<br> SecuroomAi</h3>

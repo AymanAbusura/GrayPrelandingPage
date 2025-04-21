@@ -425,6 +425,7 @@
 
 .title-1 {
     text-align: left;
+    font-size: 45px;
 }
 
 .about-left-box {
@@ -1814,6 +1815,7 @@ footer .nav-footer .language>a::after{
 }
 
 @media (max-width: 768px) {
+    .flash { display: none; }
     .footer__about { padding-top: 100px; }
     .glass-card { width: 250px!important; }
     .title__about { margin-left: 10px!important; }
